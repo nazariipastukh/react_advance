@@ -6,7 +6,8 @@ export const Rick = ({rick}) => {
     return (
         <div className={styles.container}>
             <div className={styles.photo}><img src={image} alt={'simpson'}></img></div>
-            <h2>{name} {status}</h2>
+            <p>{name}</p>
+            <h3>{status}</h3>
             <h4>Gender: {gender}</h4>
             <h5>{species}</h5>
         </div>

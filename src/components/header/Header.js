@@ -4,9 +4,7 @@ import styles from '../Components.module.css'
 export const Header = () => {
     return (
         <div className={styles.header}>
-            <NavLink to={''}>Main Page</NavLink>
-            <NavLink to={'simpsons'}>Simpsons</NavLink>
-            <NavLink to={'rickmorty'}>Rick And Morty</NavLink>
+            <NavLink className={styles.headerNav} to={''}>Main Page</NavLink>
         </div>
     )
 }
