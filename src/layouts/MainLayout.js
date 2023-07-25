@@ -9,13 +9,10 @@ export const MainLayout = () => {
             <div className={styles.headerWrap}>
                 <Header/>
             </div>
-
-
             <div className={styles.main}>
                 <LeftBar/>
                 <Outlet/>
             </div>
-
         </div>
     )
 }

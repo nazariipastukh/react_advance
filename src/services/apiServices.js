@@ -1,4 +1,6 @@
 import axios from "axios";
-import {baseURL} from '../constants'
+import {baseUrlRick, baseUrlPosts, baseUrlSpace} from '../constants'
 
-export const apiServices = axios.create({baseURL})
+export const apiRick = axios.create({baseURL: baseUrlRick})
+export const apiPosts = axios.create({baseURL: baseUrlPosts})
+export const apiLaunches = axios.create({baseURL: baseUrlSpace})
