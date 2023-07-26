@@ -124,3 +124,11 @@ p{
     margin: 3vh 1vh 1.5vh 26.5vh;
     width: 42.3vw;
 }
+.info{
+    padding: 0.5vh;
+    margin: 0.5vh;
+}
+#user{
+    align-items: flex-start;
+    padding: 1vh 2vh 2vh 2vh;
+}

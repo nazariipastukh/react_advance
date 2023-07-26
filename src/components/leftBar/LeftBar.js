@@ -8,6 +8,7 @@ export const LeftBar = () => {
             <NavLink className={styles.NavLink} to={'rickmorty'}>Rick And Morty</NavLink>
             <NavLink className={styles.NavLink} to={'posts'}>Posts</NavLink>
             <NavLink className={styles.NavLink} to={'launches'}>SpaceX Launches</NavLink>
+            <NavLink className={styles.NavLink} to={'users'}>Users</NavLink>
         </div>
     )
 }

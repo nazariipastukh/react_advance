@@ -1,6 +1,6 @@
 import {apiJson} from "./apiServices";
 import {urls} from "../constants";
 
-export const postService = {
-    getAll: () => apiJson.get(urls.posts)
+export const userService = {
+    getAll: () => apiJson.get(urls.users)
 }
