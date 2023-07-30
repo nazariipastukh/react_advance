@@ -15,6 +15,7 @@ export const urls = {
     comments,
     posts: {
         base: posts,
-        byId: (id) => `${posts}/${id}`
+        byId: (id) => `${posts}/${id}`,
+        byUserId: (id)=>`${posts}/${id}`
     }
 }

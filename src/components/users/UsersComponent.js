@@ -1,6 +1,6 @@
 import styles from '../Components.module.css'
 import {User} from "./User";
-import {userService} from '../../services/userService'
+import {userService} from "../../services";
 import {useState, useEffect} from "react";
 
 export const UsersComponent = () => {
