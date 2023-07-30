@@ -54,7 +54,7 @@ h4{
     width: 88vw;
     flex-wrap: wrap;
     display: flex;
-    margin:2vh 0 1.5vh 25vh;
+    margin:1vh 0 1.5vh 25vh;
 }
 p{
     font-size: 24px;
@@ -74,11 +74,14 @@ p{
     align-items: center;
     text-align: center;
 }
-.NavLink{
-    margin-top: 2vh;
+.leftBar a{
+    margin:1vh;
     text-decoration: none;
     color: lavender;
     font-size: 18px;
+}
+.leftBar a[class='active']{
+    color:black;
 }
 .headerWrap{
     width:100vw;
@@ -89,10 +92,13 @@ p{
     padding-top: 1vh;
     z-index: 1;
 }
-.headerNav{
+.header a{
     text-decoration: none;
     color: lavender;
     font-size: 18px;
+}
+.header a[class='active']{
+    color:black;
 }
 .post{
     float:left;
@@ -131,4 +137,12 @@ p{
 #user{
     align-items: flex-start;
     padding: 1vh 2vh 2vh 2vh;
+}
+#postInfoComment{
+    margin: 3vh 1vh 1.5vh 1vh;
+    width: 42.3vw;
+}
+.postInfoWrap{
+    display: flex;
+    align-items: inherit;
 }

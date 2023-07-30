@@ -6,10 +6,15 @@ const rickmorty = '/character'
 const posts = '/posts'
 const launches = '/launches'
 const users = '/users'
+const comments = '/comments'
 
 export const urls = {
     rickmorty,
-    posts,
     launches,
-    users
+    users,
+    comments,
+    posts: {
+        base: posts,
+        byId: (id) => `${posts}/${id}`
+    }
 }

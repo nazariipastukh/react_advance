@@ -1,6 +1,6 @@
 import {createBrowserRouter} from "react-router-dom";
 import {MainLayout} from '../layouts/MainLayout'
-import {RickPage, SimpsonsPage, PostsPage, LaunchesPage, UsersPage} from '../pages'
+import {RickPage, SimpsonsPage, PostsPage, LaunchesPage, UsersPage, CommentsPage, SelectedPostPage} from '../pages'
 import {MainPage} from "../pages/MainPage";
 
 export const router = createBrowserRouter([
@@ -31,6 +31,16 @@ export const router = createBrowserRouter([
             {
                 path: 'users',
                 element: <UsersPage/>
+            },
+            {
+                path: 'comments',
+                element: <CommentsPage/>,
+                children: [
+                    {
+                        path: 'posts/:postId',
+                        element: <SelectedPostPage/>
+                    }
+                ]
             }
         ]
     }

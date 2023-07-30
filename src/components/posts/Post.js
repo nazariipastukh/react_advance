@@ -5,7 +5,7 @@ export const Post = ({post, handleShowPost}) => {
 
     return (
         <div className={styles.post}>
-            <h2>{id} </h2>
+            <h2>Post: {id}.</h2>
             <h2 className={styles.postTitle}>{title}</h2>
             <button className={styles.postButton} onClick={() => handleShowPost(id)}>See post</button>
         </div>
