@@ -7,6 +7,3 @@ export const postService = {
 export const selectedPostService = {
     getById: (id) => apiJson.get(urls.posts.byId(id))
 }
-export const userPostsService={
-    getByUser:(id)=>apiJson.get(urls.posts.byUserId(id))
-}

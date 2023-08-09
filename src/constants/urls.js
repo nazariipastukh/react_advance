@@ -16,6 +16,5 @@ export const urls = {
     posts: {
         base: posts,
         byId: (id) => `${posts}/${id}`,
-        byUserId: (id)=>`${posts}/${id}`
     }
 }
